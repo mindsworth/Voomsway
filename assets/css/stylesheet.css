@@ -6,14 +6,14 @@ p {
   font-size: .95rem;
   font-weight: 400; }
 
-.btn {
+.btn--modifier {
   border-radius: 0;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 500; }
-  .btn:focus {
+  .btn--modifier:focus {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
@@ -22,8 +22,8 @@ form .form-control {
   border: 1px solid #eeeeee;
   outline: 0;
   border-radius: 0;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
   padding-left: 1.5rem; }
   form .form-control:focus {
     outline: 0;
@@ -52,6 +52,15 @@ form .form-control {
 .logo {
   width: 4rem;
   height: auto; }
+
+.logo--header {
+  width: 11rem;
+  height: auto; }
+
+.home nav .collapse .nav-item {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500; }
 
 .login {
   background-color: #F7F7F7;
