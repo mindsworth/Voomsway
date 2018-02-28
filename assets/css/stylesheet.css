@@ -63,48 +63,51 @@ html, body {
   width: 11rem;
   height: auto; }
 
-.home .header-section nav .collapse .nav-item {
-  text-transform: uppercase;
-  font-size: 0.8rem;
-  font-weight: 500; }
-  .home .header-section nav .collapse .nav-item .nav-link {
-    color: #3A3A3A; }
-  .home .header-section nav .collapse .nav-item .btn {
-    font-size: 0.7rem;
-    font-weight: 700;
-    color: #ffffff;
-    padding-right: 1.2rem;
-    padding-left: 1rem;
-    margin-left: 0.5rem; }
-
-.home .header-section .hero {
-  margin-top: 35vh; }
-  .home .header-section .hero__text {
-    padding-left: 1rem; }
-  .home .header-section .hero__form {
-    padding-left: 2rem; }
-    .home .header-section .hero__form .form-inline > [class^="col-"] {
-      padding: 0; }
-      .home .header-section .hero__form .form-inline > [class^="col-"] .form-control {
-        width: 100%;
-        padding-top: 0.9rem;
-        padding-bottom: 0.9rem; }
-        .home .header-section .hero__form .form-inline > [class^="col-"] .form-control::-webkit-input-placeholder {
-          font-size: 1rem;
-          font-weight: 400; }
-        .home .header-section .hero__form .form-inline > [class^="col-"] .form-control:-ms-input-placeholder {
-          font-size: 1rem;
-          font-weight: 400; }
-        .home .header-section .hero__form .form-inline > [class^="col-"] .form-control::-ms-input-placeholder {
-          font-size: 1rem;
-          font-weight: 400; }
-        .home .header-section .hero__form .form-inline > [class^="col-"] .form-control::placeholder {
-          font-size: 1rem;
-          font-weight: 400; }
-      .home .header-section .hero__form .form-inline > [class^="col-"] .btn--modifier {
-        padding-top: 1.2rem;
-        padding-bottom: 1.2rem;
-        border: 1px solid #eeeeee; }
+.home .header-section {
+  background: url("/assets/imgs/bus-bg.jpg") no-repeat 125% 140%;
+  background-size: 60rem;
+  height: 100vh; }
+  .home .header-section nav .collapse .nav-item {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 500; }
+    .home .header-section nav .collapse .nav-item .nav-link {
+      color: #3A3A3A; }
+    .home .header-section nav .collapse .nav-item .btn {
+      font-size: 0.7rem;
+      font-weight: 700;
+      color: #ffffff;
+      padding-right: 1.2rem;
+      padding-left: 1rem;
+      margin-left: 0.5rem; }
+  .home .header-section .hero {
+    margin-top: 35vh; }
+    .home .header-section .hero__text {
+      padding-left: 1rem; }
+    .home .header-section .hero__form {
+      padding-left: 2rem; }
+      .home .header-section .hero__form .form-inline > [class^="col-"] {
+        padding: 0; }
+        .home .header-section .hero__form .form-inline > [class^="col-"] .form-control {
+          width: 100%;
+          padding-top: 0.9rem;
+          padding-bottom: 0.9rem; }
+          .home .header-section .hero__form .form-inline > [class^="col-"] .form-control::-webkit-input-placeholder {
+            font-size: 1rem;
+            font-weight: 400; }
+          .home .header-section .hero__form .form-inline > [class^="col-"] .form-control:-ms-input-placeholder {
+            font-size: 1rem;
+            font-weight: 400; }
+          .home .header-section .hero__form .form-inline > [class^="col-"] .form-control::-ms-input-placeholder {
+            font-size: 1rem;
+            font-weight: 400; }
+          .home .header-section .hero__form .form-inline > [class^="col-"] .form-control::placeholder {
+            font-size: 1rem;
+            font-weight: 400; }
+        .home .header-section .hero__form .form-inline > [class^="col-"] .btn--modifier {
+          padding-top: 1.2rem;
+          padding-bottom: 1.2rem;
+          border: 1px solid #eeeeee; }
 
 .login {
   background-color: #F7F7F7;
