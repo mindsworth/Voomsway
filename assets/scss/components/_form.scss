@@ -1,0 +1,25 @@
+form {
+    .form-control {
+        background-color: $color-gray-light;
+        border: 1px solid $color-gray-dark;
+        outline: 0;
+        border-radius: 0;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+        padding-left: 1.5rem;
+
+        &:focus {
+            outline: 0;
+            background-color: $color-gray-light;
+            border: 1px solid $color-gray-dark;
+            box-shadow: none;
+            border-radius: 0;
+
+        }
+        &::placeholder {
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: lighten($color-gray-darker, 30);
+        }
+    }
+}
