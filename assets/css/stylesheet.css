@@ -1,10 +1,15 @@
 .form-title {
-  color: #7C7C7C; }
+  color: #3A3A3A; }
 
 p {
-  color: #7C7C7C;
   font-size: .95rem;
   font-weight: 400; }
+
+.hero-text {
+  font-weight: 400; }
+
+html, body {
+  color: #3A3A3A; }
 
 .btn--modifier {
   border-radius: 0;
@@ -17,7 +22,7 @@ p {
     -webkit-box-shadow: none;
     box-shadow: none; }
 
-form .form-control {
+#login-form .form-control, #signup-form .form-control {
   background-color: #F7F7F7;
   border: 1px solid #eeeeee;
   outline: 0;
@@ -25,29 +30,29 @@ form .form-control {
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   padding-left: 1.5rem; }
-  form .form-control:focus {
+  #login-form .form-control:focus, #signup-form .form-control:focus {
     outline: 0;
     background-color: #F7F7F7;
     border: 1px solid #eeeeee;
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0; }
-  form .form-control::-webkit-input-placeholder {
+  #login-form .form-control::-webkit-input-placeholder, #signup-form .form-control::-webkit-input-placeholder {
     font-size: 0.8rem;
     font-weight: 500;
-    color: #c9c9c9; }
-  form .form-control:-ms-input-placeholder {
+    color: #878787; }
+  #login-form .form-control:-ms-input-placeholder, #signup-form .form-control:-ms-input-placeholder {
     font-size: 0.8rem;
     font-weight: 500;
-    color: #c9c9c9; }
-  form .form-control::-ms-input-placeholder {
+    color: #878787; }
+  #login-form .form-control::-ms-input-placeholder, #signup-form .form-control::-ms-input-placeholder {
     font-size: 0.8rem;
     font-weight: 500;
-    color: #c9c9c9; }
-  form .form-control::placeholder {
+    color: #878787; }
+  #login-form .form-control::placeholder, #signup-form .form-control::placeholder {
     font-size: 0.8rem;
     font-weight: 500;
-    color: #c9c9c9; }
+    color: #878787; }
 
 .logo {
   width: 4rem;
@@ -57,10 +62,29 @@ form .form-control {
   width: 11rem;
   height: auto; }
 
-.home nav .collapse .nav-item {
+.home .header-section nav .collapse .nav-item {
   text-transform: uppercase;
   font-size: 0.8rem;
   font-weight: 500; }
+  .home .header-section nav .collapse .nav-item .nav-link {
+    color: #3A3A3A; }
+  .home .header-section nav .collapse .nav-item .btn {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #ffffff;
+    padding-right: 1.2rem;
+    padding-left: 1rem;
+    margin-left: 0.5rem; }
+
+.home .header-section .hero__text {
+  padding-left: 1rem; }
+
+.home .header-section .hero__form {
+  padding-left: 2rem; }
+  .home .header-section .hero__form .form-inline > [class^="col-"] {
+    padding: 0; }
+    .home .header-section .hero__form .form-inline > [class^="col-"] .form-control {
+      width: 100%; }
 
 .login {
   background-color: #F7F7F7;
@@ -70,12 +94,12 @@ form .form-control {
     border: 1px solid #eeeeee;
     border-radius: 0.5rem; }
   .login__wrap--footer p a:link, .login__wrap--footer p a:visited {
-    color: #494949;
+    color: #070707;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
     .login__wrap--footer p a:link:hover, .login__wrap--footer p a:link:active, .login__wrap--footer p a:visited:hover, .login__wrap--footer p a:visited:active {
-      color: #7C7C7C;
+      color: #3A3A3A;
       text-decoration: none; }
   .login__wrap--footer p:last-child {
     margin-top: -1rem; }
@@ -88,12 +112,12 @@ form .form-control {
     border: 1px solid #eeeeee;
     border-radius: 0.5rem; }
   .signup__wrap--footer p a:link, .signup__wrap--footer p a:visited {
-    color: #494949;
+    color: #070707;
     -webkit-transition: all .3s ease-in-out;
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out; }
     .signup__wrap--footer p a:link:hover, .signup__wrap--footer p a:link:active, .signup__wrap--footer p a:visited:hover, .signup__wrap--footer p a:visited:active {
-      color: #7C7C7C;
+      color: #3A3A3A;
       text-decoration: none; }
   .signup__wrap--footer p:last-child {
     margin-top: -1rem; }

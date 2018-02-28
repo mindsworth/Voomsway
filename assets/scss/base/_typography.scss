@@ -3,7 +3,15 @@
 }
 
 p {
-    color: $color-gray-darker;
     font-size: .95rem;
     font-weight: 400;
+}
+
+.hero-text {
+    font-weight: 400;
+
+}
+
+html, body {
+    color: $color-gray-darker;
 }
