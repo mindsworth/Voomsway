@@ -67,6 +67,14 @@ html, body {
   background: url("/assets/imgs/bus-bg.jpg") no-repeat 125% 130%;
   background-size: 60rem;
   height: 100vh; }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .home .header-section {
+      background: url("/assets/imgs/bus-bg.jpg") no-repeat 100% 60%;
+      background-size: 40rem; } }
+  @media (max-width: 576px) {
+    .home .header-section {
+      background: url("/assets/imgs/bus-bg.jpg") no-repeat 50% 110%;
+      background-size: 45rem; } }
   .home .header-section nav {
     position: relative; }
     .home .header-section nav button {
@@ -100,7 +108,7 @@ html, body {
             display: inline-block; } }
   .home .header-section .hero {
     margin-top: 30vh; }
-    @media (max-width: 992px) {
+    @media (max-width: 768px) {
       .home .header-section .hero {
         margin-top: 17vh; } }
     .home .header-section .hero__form .form-inline > [class^="col-"] {
@@ -165,13 +173,17 @@ html, body {
     background-color: #ffffff;
     border: 1px solid #eeeeee;
     border-radius: 0.5rem; }
-  .signup__wrap--footer p a:link, .signup__wrap--footer p a:visited {
-    color: #070707;
-    -webkit-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; }
-    .signup__wrap--footer p a:link:hover, .signup__wrap--footer p a:link:active, .signup__wrap--footer p a:visited:hover, .signup__wrap--footer p a:visited:active {
-      color: #3A3A3A;
-      text-decoration: none; }
+  .signup__wrap--footer p {
+    padding-left: 2rem;
+    padding-right: 2rem; }
+    .signup__wrap--footer p a:link, .signup__wrap--footer p a:visited {
+      color: #070707;
+      -webkit-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      transition: all .3s ease-in-out;
+      font-weight: 500; }
+      .signup__wrap--footer p a:link:hover, .signup__wrap--footer p a:link:active, .signup__wrap--footer p a:visited:hover, .signup__wrap--footer p a:visited:active {
+        color: #3A3A3A;
+        text-decoration: none; }
   .signup__wrap--footer p:last-child {
     margin-top: -1rem; }

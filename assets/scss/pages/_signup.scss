@@ -14,9 +14,13 @@
 
         &--footer {
             p {
+                padding-left: 2rem;
+                padding-right: 2rem;
+
                 a:link, a:visited {
                     color: darken( $color-gray-darker, 20);
                     transition: all .3s ease-in-out;
+                    font-weight: 500;
 
                     &:hover, &:active {
                         color: $color-gray-darker;
